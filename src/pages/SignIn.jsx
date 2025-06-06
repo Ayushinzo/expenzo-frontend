@@ -12,7 +12,7 @@ function SignIn() {
   const [email, setEmail] = useState("")
   const navigate = useNavigate()
   const actionCodeSettings = {
-    url: `${import.meta.env.VITE_FRONTEND_URL}/complete-signIn`,
+    url: `https://expenzo-frontend.vercel.app/complete-signIn`,
     handleCodeInApp: true,
   };
 
