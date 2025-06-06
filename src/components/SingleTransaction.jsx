@@ -7,7 +7,7 @@ import axios from 'axios';
 import { FaIndianRupeeSign } from "react-icons/fa6";
 import { IoAddOutline } from "react-icons/io5";
 import { RiSubtractLine } from "react-icons/ri";
-import NoMoretransaction from './NoMoretransaction';
+import NoMoretransaction from './NoMoreTransaction';
 import { memo } from 'react';
 import Button from '@mui/material/Button';
 
