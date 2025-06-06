@@ -1,6 +1,5 @@
 import { GoogleAuthProvider, getAuth, signInWithPopup, } from "firebase/auth";
 import app from "../firebase/firebase.js";
-import axios from 'axios';
 
 let auth = getAuth(app)
 

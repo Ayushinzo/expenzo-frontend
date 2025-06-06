@@ -1,6 +1,5 @@
 import React, { useState } from 'react'
 import { MdDelete } from "react-icons/md";
-import { TbH1 } from 'react-icons/tb';
 import InfiniteScroll from 'react-infinite-scroll-component'
 import InfinityLoader from '../components/InfinityLoader'
 import { toast } from 'react-toastify';

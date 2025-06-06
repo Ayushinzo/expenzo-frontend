@@ -3,9 +3,9 @@ import Box from '@mui/material/Box';
 import TextField from '@mui/material/TextField';
 import { Button } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-import { SignInWithGoogle } from '../services/loginWithGoogle';
 import { getAuth, sendSignInLinkToEmail } from 'firebase/auth';
 import app from '../firebase/firebase.js';
+import { SignInWithGoogle } from '../services/LoginWithGoogle.jsx'
 
 function SignIn() {
   let auth = getAuth(app)
